@@ -1,0 +1,49 @@
+{
+  "name": "TecnoRescate - Soporte Técnico Informático",
+  "short_name": "TecnoRescate",
+  "description": "Soporte técnico informático profesional en Buenos Aires. Reparación de PC, instalación de redes WiFi, domótica y venta de equipos.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#212529",
+  "theme_color": "#00FFA3",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/images/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/images/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "categories": ["business", "technology", "utilities"],
+  "lang": "es-AR",
+  "shortcuts": [
+    {
+      "name": "Solicitar Soporte",
+      "short_name": "Soporte",
+      "description": "Solicitar soporte técnico inmediato",
+      "url": "/#contact",
+      "icons": [{ "src": "/images/shortcut-support.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Ver Servicios",
+      "short_name": "Servicios",
+      "description": "Conocer nuestros servicios",
+      "url": "/#services",
+      "icons": [{ "src": "/images/shortcut-services.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Llamar Ahora",
+      "short_name": "Llamar",
+      "description": "Llamar para emergencias",
+      "url": "tel:+5491112345678",
+      "icons": [{ "src": "/images/shortcut-call.png", "sizes": "96x96" }]
+    }
+  ]
+}
